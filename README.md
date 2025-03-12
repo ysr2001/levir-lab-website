@@ -12,13 +12,6 @@ Before pushing changes, please check that they will work on your system first wi
     sudo gem install bundler
     bundle install
     bundle exec jekyll serve
-    
-To create a conda environment to locally test and host, the following should suffice:
-
-    conda create -n jekyll -c conda-forge rb-jekyll
-    conda activate jekyll
-    bundle install
-    bundle exec jekyll serve
 
 To create a conda environment to locally test and host, the following should suffice:
     
